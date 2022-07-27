@@ -79,9 +79,7 @@
 
 
 
-.s::selection {
-    background-color: rgb(251, 255, 253, 0.1);
-}
+
 
 /* *primary-nav*/
 
@@ -239,7 +237,7 @@ li {
 
 a {
     text-decoration: none;
-    color: var(--c3);
+    color: #221c20;
 }
 
 html {
@@ -628,7 +626,7 @@ html {
 .svg-5:before {
     position: absolute;
     content: "";
-    background: url(https://f.cl.ly/items/3H3A0D1N281a2T280F3o/heist.svg-5) no-repeat center center;
+
     width: 100%;
     height: 100%;
     top: 0;
@@ -667,6 +665,10 @@ html {
 
 .bottom-text a {
     margin: 1rem 0;
+}
+
+.svg a {
+    color: #221c20;
 }
 
 
@@ -1292,10 +1294,13 @@ hr {
 }
 
 
+.like {
+    color: var(--c3);
+}
 
-
-
-
+.social a {
+    color: var(--c3);
+}
 
 
 .svg-4 {
@@ -1568,6 +1573,7 @@ textarea {
 
 .c5 {
     color: #9522ec;
+    cursor: pointer;
 }
 
 
@@ -1786,6 +1792,13 @@ video {
         width: 15rem;
     } */
 
+    .paragraph-2 {
+        font-size: 16px;
+    }
+
+    .container-1 {
+        padding-bottom: 3rem;
+    }
 
 
     .pie {
